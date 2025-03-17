@@ -1,0 +1,7 @@
+{
+  "responsive-layout.desktop#home": {
+    "children":[
+      "flex-layout.row#banner__row--desktop"
+    ]
+  }
+}

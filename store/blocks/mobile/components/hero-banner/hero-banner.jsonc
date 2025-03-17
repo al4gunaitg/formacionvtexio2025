@@ -1,0 +1,23 @@
+{
+  "flex-layout.row#banner__row--mobile": {
+    "title": "Banner Principal",
+    "children": [
+      "image#banner__image--mobile"
+    ],
+    "props": {
+      "blockClass": "banner__row--mobile"
+    }
+  },
+  "image#banner__image--mobile": {
+    "props": {
+      "blockClass": "banner__image--mobile",
+      "src": "assets/home/hero-mobile.jpg",
+      "alt": "Banner de imagen",
+      "link": {
+        "url": "#",
+        "openNewTab": false
+      },
+      "maxWidth": "100%"
+    }
+  }
+}

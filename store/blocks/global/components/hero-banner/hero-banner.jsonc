@@ -1,4 +1,5 @@
 {
+
   "slider-layout#hero__banner": {
     "children": ["image#banner--one"],
     "props": {

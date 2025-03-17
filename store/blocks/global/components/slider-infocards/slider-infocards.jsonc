@@ -1,5 +1,6 @@
 {
   "flex-layout.row#section--infocards": {
+    "title": "Section - An amazing product.",
     "children": [
       "flex-layout.col#section--infocards"
     ],
@@ -41,12 +42,12 @@
   },
 
   "flex-layout.row#infocards--item": {
+    "title": "Info Cards Item",
     "children": ["flex-layout.col#infocards--item"],
     "props": {
       "blockClass": "infocards--item"
     }
   },
-
   "flex-layout.col#infocards--item": {
     "children": [
       "image#infocards--image",

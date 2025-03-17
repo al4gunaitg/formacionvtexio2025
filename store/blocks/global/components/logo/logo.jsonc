@@ -1,5 +1,6 @@
 {
   "logo#logo--black": {
+    "title": "Logo del sitio Itglobers",
     "props": {
       "title": "Logo del sitio Itglobers",
       "href": "/",

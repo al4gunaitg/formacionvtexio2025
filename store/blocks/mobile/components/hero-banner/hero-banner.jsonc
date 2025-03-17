@@ -1,6 +1,6 @@
 {
   "flex-layout.row#banner__row--mobile": {
-    "title": "Banner Principal",
+    "title": "Banner Principal Mobile",
     "children": [
       "image#banner__image--mobile"
     ],

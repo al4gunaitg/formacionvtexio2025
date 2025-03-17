@@ -1,5 +1,6 @@
 {
   "header": {
+    "title": "Header",
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header.full": {
@@ -16,6 +17,7 @@
     ]
   },
   "sticky-layout#desktop": {
+    "title": "Header Sticky Desktop",
     "props": {
       "blockClass": "sticky-header"
     },
@@ -25,6 +27,7 @@
     ]
   },
   "sticky-layout#mobile": {
+    "title": "Header Sticky Mobile",
     "props": {
       "blockClass": "sticky-header"
     },

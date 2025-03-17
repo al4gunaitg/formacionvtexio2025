@@ -1,6 +1,6 @@
 {
   "flex-layout.row#banner__row--desktop": {
-    "title": "Banner Principal",
+    "title": "Banner Principal Desktop",
     "children": [
       "image#banner__image--desktop"
     ],

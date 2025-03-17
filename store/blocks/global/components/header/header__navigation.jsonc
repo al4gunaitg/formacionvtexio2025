@@ -1,5 +1,6 @@
 {
   "header-row#header__navigation": {
+    "title": "Navigation Items",
     "children": [
       "flex-layout.row#navigation__item--one",
       "flex-layout.row#navigation__item--two",
@@ -22,6 +23,7 @@
 
   // item 1
   "flex-layout.row#navigation__item--one": {
+    "title": "Navigation Item",
     "children": [
       "flex-layout.col#navigation__col--one"
     ],
@@ -56,6 +58,7 @@
 
   //item 2
   "flex-layout.row#navigation__item--two": {
+    "title": "Navigation Item",
     "children": [
       "flex-layout.col#navigation__col--two"
     ],
@@ -90,6 +93,7 @@
 
   //item 3
   "flex-layout.row#navigation__item--three": {
+    "title": "Navigation Item",
     "children": [
       "flex-layout.col#navigation__col--three"
     ],
@@ -124,6 +128,7 @@
 
   //item 4
   "flex-layout.row#navigation__item--four": {
+    "title": "Navigation Item",
     "children": [
       "flex-layout.col#navigation__col--four"
     ],
@@ -158,6 +163,7 @@
 
   //item 5
   "flex-layout.row#navigation__item--five": {
+    "title": "Navigation Item",
     "children": [
       "flex-layout.col#navigation__col--five"
     ],
@@ -192,6 +198,7 @@
 
   //item 6
   "flex-layout.row#navigation__item--six": {
+    "title": "Navigation Item",
     "children": [
       "flex-layout.col#navigation__col--six"
     ],
@@ -226,6 +233,7 @@
 
   //item 7
   "flex-layout.row#navigation__item--seven": {
+    "title": "Navigation Item",
     "children": [
       "flex-layout.col#navigation__col--seven"
     ],
@@ -260,6 +268,7 @@
 
   //item 8
   "flex-layout.row#navigation__item--eight": {
+    "title": "Navigation Item",
     "children": [
       "flex-layout.col#navigation__col--eight"
     ],
@@ -294,6 +303,8 @@
 
   //item 9
   "flex-layout.row#navigation__item--nine": {
+    "title": "Navigation Item",
+
     "children": [
       "flex-layout.col#navigation__col--nine"
     ],
@@ -328,6 +339,7 @@
 
   //item 10
   "flex-layout.row#navigation__item--ten": {
+    "title": "Navigation Item",
     "children": [
       "flex-layout.col#navigation__col--ten"
     ],
@@ -362,6 +374,7 @@
 
   //item 11
   "flex-layout.row#navigation__item--eleven": {
+    "title": "Navigation Item",
     "children": [
       "flex-layout.col#navigation__col--eleven"
     ],
@@ -396,6 +409,7 @@
 
   //item 12
   "flex-layout.row#navigation__item--twelve": {
+    "title": "Navigation Item",
     "children": [
       "flex-layout.col#navigation__col--twelve"
     ],
@@ -430,6 +444,7 @@
 
   //item 13
   "flex-layout.row#navigation__item--thirteen": {
+    "title": "Navigation Item",
     "children": [
       "flex-layout.col#navigation__col--thirteen"
     ],

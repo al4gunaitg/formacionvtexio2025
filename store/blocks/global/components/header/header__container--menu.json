@@ -1,5 +1,6 @@
 {
   "vtex.menu@2.x:menu#header__container--menu": {
+    "title": "Menu Items Link",
     "children": [
       "menu-item#one",
       "menu-item#two",

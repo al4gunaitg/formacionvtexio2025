@@ -1,0 +1,15 @@
+
+.paginationDotsContainer--carousel--home {
+    margin-bottom: 35px;
+}
+
+.paginationDot--carousel--home {
+    padding: 0 !important;
+    width: 25px !important;
+    height: 4px !important;
+    border-radius: 0 !important;
+}
+
+.paginationDot--carousel--home--isActive {
+    background-color: #1D2734;
+}

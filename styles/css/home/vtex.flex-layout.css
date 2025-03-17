@@ -4,3 +4,41 @@
     min-width: 100%;
     max-width: 100%;
 }
+
+.flexRow--banner__row--mobile :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+    margin: 0;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.flexRow--infocards--information {
+    padding: 10px 10px 0 10px;
+}
+
+.flexRow--infocards--item {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.flexRowContent--section--infocards {
+    padding-bottom: 3rem;
+}
+
+
+
+/* Mobile */
+@media (max-width: 767px) {
+    .flexRowContent--inforcards__information--frame {
+        display: flex;
+    }
+
+    .flexRowContent--inforcards__information--frame :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+        width: calc(100% - 40px) !important;
+    }
+
+    .flexRowContent--inforcards__information--frame :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+        width: 40px !important;
+    }
+}
+

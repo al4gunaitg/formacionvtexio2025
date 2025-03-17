@@ -1,0 +1,29 @@
+.wrapper--infocards__information--title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.wrapper--infocards__information--title :global(.vtex-rich-text-0-x-paragraph) {
+    margin: 0;
+}
+
+.wrapper--infocards__information--description {
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.wrapper--infocards__information--description :global(.vtex-rich-text-0-x-paragraph) {
+    margin-bottom: 0;
+}
+
+/*  Desktop */
+@media (min-width: 768px) {
+    .wrapper--infocards__information--description {
+        font-size: 12px;
+    }
+}
+
+.container--infocards__information--calltoaction {
+    justify-content: center;
+}
+

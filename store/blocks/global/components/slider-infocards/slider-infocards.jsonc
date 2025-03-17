@@ -1,0 +1,139 @@
+{
+  "flex-layout.row#section--infocards": {
+    "children": [
+      "flex-layout.col#section--infocards"
+    ],
+    "props": {
+      "blockClass": "section--infocards"
+    }
+  },
+  "flex-layout.col#section--infocards": {
+    "children": [
+      "rich-text#slider__infocards--title",
+      "slider-layout#slider__infocards"
+    ]
+  },
+  "rich-text#slider__infocards--title": {
+    "props": {
+      "text": "An amazing product."
+    }
+  },
+  "slider-layout#slider__infocards": {
+    "children": [
+      "flex-layout.row#infocards--item",
+      "flex-layout.row#infocards--item",
+      "flex-layout.row#infocards--item",
+      "flex-layout.row#infocards--item",
+      "flex-layout.row#infocards--item",
+      "flex-layout.row#infocards--item"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "mobile": 1
+      },
+      "blockClass": "carousel--home",
+      "navigationStep": 1,
+      "centerMode": "to-the-left",
+      "showNavigationArrows": "desktopOnly"
+    }
+  },
+
+  "flex-layout.row#infocards--item": {
+    "children": ["flex-layout.col#infocards--item"],
+    "props": {
+      "blockClass": "infocards--item"
+    }
+  },
+
+  "flex-layout.col#infocards--item": {
+    "children": [
+      "image#infocards--image",
+      "flex-layout.row#infocards--information"
+    ],
+    "props": {
+      "blockClass": "infocards--information"
+    }
+  },
+  "image#infocards--image": {
+    "props": {
+      "src": "assets/home/crop.jpg",
+      "blockClass": "infocards--image"
+    }
+  },
+  "flex-layout.row#infocards--information": {
+    "children": [
+      "flex-layout.col#infocards__information--content"
+    ],
+    "props": {
+      "blockClass": "infocards--information"
+    }
+  },
+  "flex-layout.col#infocards__information--content": {
+    "children": [
+      "flex-layout.row#inforcards__information--frame",
+      "flex-layout.row#infocards__information--button"
+    ]
+  },
+  "flex-layout.row#inforcards__information--frame": {
+    "children": [
+      "flex-layout.col#infocards__information--text",
+      "flex-layout.col#infocards__information--image"
+    ],
+    "props": {
+      "blockClass": "inforcards__information--frame"
+    }
+  },
+  "flex-layout.row#infocards__information--button": {
+    "children": [
+      "link#infocards__information--calltoaction"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#infocards__information--text": {
+    "children": [
+      "rich-text#infocards__information--title",
+      "rich-text#infocards__information--description"
+    ],
+    "props": {
+      "width": "80%"
+    }
+  },
+  "flex-layout.col#infocards__information--image": {
+    "children": [
+      "image#image--artwork__trailing"
+    ],
+    "props": {
+      "width": "20%",
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#infocards__information--title": {
+    "props": {
+      "text": "Heading",
+      "blockClass": "infocards__information--title"
+    }
+  },
+  "rich-text#infocards__information--description": {
+    "props": {
+      "blockClass": "infocards__information--description",
+      "text": "Builder platform is made by, buildership platform is made by..."
+    }
+  },
+  "image#image--artwork__trailing": {
+    "props": {
+      "src": "assets/home/artwork-trailing.jpg",
+      "blockClass": "image--artwork__trailing"
+    }
+  },
+  "link#infocards__information--calltoaction": {
+    "props": {
+      "href": "/",
+      "label": "Ver precio",
+      "blockClass": "infocards__information--calltoaction"
+    }
+  }
+}

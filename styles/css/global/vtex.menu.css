@@ -5,3 +5,7 @@
 .styledLinkContent--header__menu--item {
     font-size: 12px;
 }
+
+.styledLinkContent--header__menu--item:hover {
+    text-decoration: underline;
+}

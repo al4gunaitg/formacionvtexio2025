@@ -1,3 +1,32 @@
 .imageElement--banner__image--desktop {
     min-width: 100%
 }
+.imageElement--infocards--image {
+   min-width: 100%;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .imageElement--banner__image--mobile {
+        min-width: 242px;
+    }
+    .imageElement--image--artwork__trailing {
+        width: 36px;
+    }
+    .imageElement--infocards--image {
+        width: 242px;
+    }
+}
+
+/*  Desktop */
+@media (min-width: 768px) {
+    .imageElement--banner__image--mobile {
+        width: 100%;
+        min-width: 324px;
+    }
+    .imageElement--infocards--image {
+        width: 324px;
+    }
+}
+
+

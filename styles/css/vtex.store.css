@@ -1,0 +1,9 @@
+:global(.vtex-store__template),
+:global(.vtex-modal-layout-0-x-modal),
+:global(.vtex-store-drawer-0-x-drawer),
+:global(.vtex-minicart-2-x-drawer) {
+    --base          : #F5F4F6;
+}
+:local(body div[class="vtex-store__template bg-base"]) {
+    background: var(--base);
+}

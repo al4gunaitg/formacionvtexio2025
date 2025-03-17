@@ -1,0 +1,8 @@
+{
+  "login": {
+    "props": {
+      "iconLabel": "Login",
+      "labelClasses" : ["label-btn-login"]
+    }
+  }
+}

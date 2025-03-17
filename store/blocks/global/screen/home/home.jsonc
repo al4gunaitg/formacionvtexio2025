@@ -1,0 +1,12 @@
+{
+  "store.home": { 
+    "blocks": [
+      "slider-layout#hero__banner",
+      "slider-layout#hero__banner",
+      "slider-layout#hero__banner",
+      "slider-layout#hero__banner",
+      "slider-layout#hero__banner",
+      "slider-layout#hero__banner"
+    ]
+  }
+}

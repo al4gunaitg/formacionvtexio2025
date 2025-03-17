@@ -1,0 +1,86 @@
+{
+  "vtex.menu@2.x:menu#header__container--menu": {
+    "children": [
+      "menu-item#one",
+      "menu-item#two",
+      "menu-item#three",
+      "menu-item#four",
+      "menu-item#five"
+    ]
+  },
+  "menu-item#one": {
+    "props": {
+      "id": "menu-item-one",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Tendencias de ITGlobers",
+        "text": "Tendencias de ITGlobers"
+      },
+      "blockClass": "header__menu--item"
+    }
+  },
+  "menu-item#two": {
+    "props": {
+      "id": "menu-item-one",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Colección del mes",
+        "text": "Colección del mes"
+      },
+      "blockClass": "header__menu--item"
+    }
+  },
+  "menu-item#three": {
+    "props": {
+      "id": "menu-item-one",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Ofertas enero",
+        "text": "Ofertas enero"
+      },
+      "blockClass": "header__menu--item"
+    }
+  },
+  "menu-item#four": {
+    "props": {
+      "id": "menu-item-one",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Cyber Monday",
+        "text": "Cyber Monday"
+      },
+      "blockClass": "header__menu--item"
+    }
+  },
+  "menu-item#five": {
+    "props": {
+      "id": "menu-item-one",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Never say never",
+        "text": "Never say never"
+      },
+      "blockClass": "header__menu--item"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+.wrapper {
+    -webkit-box-shadow: 10px 6px 19px 0px rgba(0,0,0,0.17);
+    -moz-box-shadow: 10px 6px 19px 0px rgba(0,0,0,0.17);
+    box-shadow: 10px 6px 19px 0px rgba(0,0,0,0.17);
+}

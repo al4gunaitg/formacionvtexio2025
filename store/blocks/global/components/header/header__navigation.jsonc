@@ -1,0 +1,464 @@
+{
+  "header-row#header__navigation": {
+    "children": [
+      "flex-layout.row#navigation__item--one",
+      "flex-layout.row#navigation__item--two",
+      "flex-layout.row#navigation__item--three",
+      "flex-layout.row#navigation__item--four",
+      "flex-layout.row#navigation__item--five",
+      "flex-layout.row#navigation__item--six",
+      "flex-layout.row#navigation__item--seven",
+      "flex-layout.row#navigation__item--eight",
+      "flex-layout.row#navigation__item--nine",
+      "flex-layout.row#navigation__item--ten",
+      "flex-layout.row#navigation__item--eleven",
+      "flex-layout.row#navigation__item--twelve",
+      "flex-layout.row#navigation__item--thirteen"
+    ],
+    "props": {
+      "blockClass": "navigation__carrusel"
+    }
+  },
+
+  // item 1
+  "flex-layout.row#navigation__item--one": {
+    "children": [
+      "flex-layout.col#navigation__col--one"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "navigation__item"
+    }
+  },
+  "flex-layout.col#navigation__col--one": {
+    "children": [
+      "image#navigation__img--one",
+      "rich-text#navigation__text--one"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "navigation__col--item"
+    }
+  },
+  "image#navigation__img--one": {
+    "props": {
+      "src": "assets/icons/fastfood.svg",
+      "alt": "Food Icon",
+      "maxWidth": "20px"
+    }
+  },
+  "rich-text#navigation__text--one": {
+    "props": {
+      "text": "Food",
+      "blockClass": "navigation__text"
+    }
+  },
+
+  //item 2
+  "flex-layout.row#navigation__item--two": {
+    "children": [
+      "flex-layout.col#navigation__col--two"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "navigation__item"
+    }
+  },
+  "flex-layout.col#navigation__col--two": {
+    "children": [
+      "image#navigation__img--two",
+      "rich-text#navigation__text--two"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "navigation__col--item"
+    }
+  },
+  "image#navigation__img--two": {
+    "props": {
+      "src": "assets/icons/fitness_center.svg",
+      "alt": "Food Icon",
+      "maxWidth": "20px"
+    }
+  },
+  "rich-text#navigation__text--two": {
+    "props": {
+      "text": "Fitness",
+      "blockClass": "navigation__text"
+    }
+  },
+
+  //item 3
+  "flex-layout.row#navigation__item--three": {
+    "children": [
+      "flex-layout.col#navigation__col--three"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "navigation__item"
+    }
+  },
+  "flex-layout.col#navigation__col--three": {
+    "children": [
+      "image#navigation__img--three",
+      "rich-text#navigation__text--three"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "navigation__col--item"
+    }
+  },
+  "image#navigation__img--three": {
+    "props": {
+      "src": "assets/icons/ac_unit.svg",
+      "alt": "Food Icon",
+      "maxWidth": "20px"
+    }
+  },
+  "rich-text#navigation__text--three": {
+    "props": {
+      "text": "En el Ártico",
+      "blockClass": "navigation__text"
+    }
+  },
+
+  //item 4
+  "flex-layout.row#navigation__item--four": {
+    "children": [
+      "flex-layout.col#navigation__col--four"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "navigation__item"
+    }
+  },
+  "flex-layout.col#navigation__col--four": {
+    "children": [
+      "image#navigation__img--four",
+      "rich-text#navigation__text--four"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "navigation__col--item"
+    }
+  },
+  "image#navigation__img--four": {
+    "props": {
+      "src": "assets/icons/deck.svg",
+      "alt": "Food Icon",
+      "maxWidth": "20px"
+    }
+  },
+  "rich-text#navigation__text--four": {
+    "props": {
+      "text": "Poolday",
+      "blockClass": "navigation__text"
+    }
+  },
+
+  //item 5
+  "flex-layout.row#navigation__item--five": {
+    "children": [
+      "flex-layout.col#navigation__col--five"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "navigation__item"
+    }
+  },
+  "flex-layout.col#navigation__col--five": {
+    "children": [
+      "image#navigation__img--five",
+      "rich-text#navigation__text--five"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "navigation__col--item"
+    }
+  },
+  "image#navigation__img--five": {
+    "props": {
+      "src": "assets/icons/hotel.svg",
+      "alt": "Icono de Hotel",
+      "maxWidth": "20px"
+    }
+  },
+  "rich-text#navigation__text--five": {
+    "props": {
+      "text": "Hoteles",
+      "blockClass": "navigation__text"
+    }
+  },
+
+  //item 6
+  "flex-layout.row#navigation__item--six": {
+    "children": [
+      "flex-layout.col#navigation__col--six"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "navigation__item"
+    }
+  },
+  "flex-layout.col#navigation__col--six": {
+    "children": [
+      "image#navigation__img--six",
+      "rich-text#navigation__text--six"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "navigation__col--item"
+    }
+  },
+  "image#navigation__img--six": {
+    "props": {
+      "src": "assets/icons/house.svg",
+      "alt": "Icono de casa",
+      "maxWidth": "20px"
+    }
+  },
+  "rich-text#navigation__text--six": {
+    "props": {
+      "text": "Casas",
+      "blockClass": "navigation__text"
+    }
+  },
+
+  //item 7
+  "flex-layout.row#navigation__item--seven": {
+    "children": [
+      "flex-layout.col#navigation__col--seven"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "navigation__item"
+    }
+  },
+  "flex-layout.col#navigation__col--seven": {
+    "children": [
+      "image#navigation__img--seven",
+      "rich-text#navigation__text--seven"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "navigation__col--item"
+    }
+  },
+  "image#navigation__img--seven": {
+    "props": {
+      "src": "assets/icons/hotel.svg",
+      "alt": "Icono de hotel Icon",
+      "maxWidth": "20px"
+    }
+  },
+  "rich-text#navigation__text--seven": {
+    "props": {
+      "text": "Hoteles",
+      "blockClass": "navigation__text"
+    }
+  },
+
+  //item 8
+  "flex-layout.row#navigation__item--eight": {
+    "children": [
+      "flex-layout.col#navigation__col--eight"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "navigation__item"
+    }
+  },
+  "flex-layout.col#navigation__col--eight": {
+    "children": [
+      "image#navigation__img--eight",
+      "rich-text#navigation__text--eight"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "navigation__col--item"
+    }
+  },
+  "image#navigation__img--eight": {
+    "props": {
+      "src": "assets/icons/spa.svg",
+      "alt": "Icono de Spa Icon",
+      "maxWidth": "20px"
+    }
+  },
+  "rich-text#navigation__text--eight": {
+    "props": {
+      "text": "Naturales",
+      "blockClass": "navigation__text"
+    }
+  },
+
+  //item 9
+  "flex-layout.row#navigation__item--nine": {
+    "children": [
+      "flex-layout.col#navigation__col--nine"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "navigation__item"
+    }
+  },
+  "flex-layout.col#navigation__col--nine": {
+    "children": [
+      "image#navigation__img--nine",
+      "rich-text#navigation__text--nine"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "navigation__col--item"
+    }
+  },
+  "image#navigation__img--nine": {
+    "props": {
+      "src": "assets/icons/checkroom.svg",
+      "alt": "Food Icon",
+      "maxWidth": "20px"
+    }
+  },
+  "rich-text#navigation__text--nine": {
+    "props": {
+      "text": "Closet",
+      "blockClass": "navigation__text"
+    }
+  },
+
+  //item 10
+  "flex-layout.row#navigation__item--ten": {
+    "children": [
+      "flex-layout.col#navigation__col--ten"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "navigation__item"
+    }
+  },
+  "flex-layout.col#navigation__col--ten": {
+    "children": [
+      "image#navigation__img--ten",
+      "rich-text#navigation__text--ten"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "navigation__col--item"
+    }
+  },
+  "image#navigation__img--ten": {
+    "props": {
+      "src": "assets/icons/beach_access.svg",
+      "alt": "Food Icon",
+      "maxWidth": "20px"
+    }
+  },
+  "rich-text#navigation__text--ten": {
+    "props": {
+      "text": "Playas",
+      "blockClass": "navigation__text"
+    }
+  },
+
+  //item 11
+  "flex-layout.row#navigation__item--eleven": {
+    "children": [
+      "flex-layout.col#navigation__col--eleven"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "navigation__item"
+    }
+  },
+  "flex-layout.col#navigation__col--eleven": {
+    "children": [
+      "image#navigation__img--eleven",
+      "rich-text#navigation__text--eleven"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "navigation__col--item"
+    }
+  },
+  "image#navigation__img--eleven": {
+    "props": {
+      "src": "assets/icons/elderly.svg",
+      "alt": "Food Icon",
+      "maxWidth": "20px"
+    }
+  },
+  "rich-text#navigation__text--eleven": {
+    "props": {
+      "text": "Alpinismo",
+      "blockClass": "navigation__text"
+    }
+  },
+
+  //item 12
+  "flex-layout.row#navigation__item--twelve": {
+    "children": [
+      "flex-layout.col#navigation__col--twelve"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "navigation__item"
+    }
+  },
+  "flex-layout.col#navigation__col--twelve": {
+    "children": [
+      "image#navigation__img--twelve",
+      "rich-text#navigation__text--twelve"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "navigation__col--item"
+    }
+  },
+  "image#navigation__img--twelve": {
+    "props": {
+      "src": "assets/icons/moped.svg",
+      "alt": "Food Icon",
+      "maxWidth": "20px"
+    }
+  },
+  "rich-text#navigation__text--twelve": {
+    "props": {
+      "text": "Delivery",
+      "blockClass": "navigation__text"
+    }
+  },
+
+  //item 13
+  "flex-layout.row#navigation__item--thirteen": {
+    "children": [
+      "flex-layout.col#navigation__col--thirteen"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "navigation__item"
+    }
+  },
+  "flex-layout.col#navigation__col--thirteen": {
+    "children": [
+      "image#navigation__img--thirteen",
+      "rich-text#navigation__text--thirteen"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "navigation__col--item"
+    }
+  },
+  "image#navigation__img--thirteen": {
+    "props": {
+      "src": "assets/icons/sports_bar.svg",
+      "alt": "Food Icon",
+      "maxWidth": "20px"
+    }
+  },
+  "rich-text#navigation__text--thirteen": {
+    "props": {
+      "text": "Cervezas",
+      "blockClass": "navigation__text"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "slider-layout#hero__banner": {
+    "children": ["image#banner--one"],
+    "props": {
+      "fullWidth": true,
+      "showPaginationDots": "never",
+      "showNavigationArrows": "never",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      }
+
+    }
+  },
+  "image#banner--one": {
+    "props": {
+      "src": "assets/home/hero-desktop.jpg",
+      "alt": "Banner de imagen",
+      "link": {
+        "url": "#",
+        "openNewTab": false
+      },
+      "maxWidth": "100%"
+    }
+  }
+}

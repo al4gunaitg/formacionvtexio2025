@@ -1,0 +1,16 @@
+.flexRow--navigation__item {
+    height: 47px;
+    min-width: 70px;
+    cursor: pointer;
+    max-width: max-content;
+    border-bottom: 3px solid transparent;
+
+}
+
+.flexRow--navigation__item:hover {
+    border-color: #1D2734;
+}
+
+.flexRow--navigation__item :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+}

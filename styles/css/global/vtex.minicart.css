@@ -1,0 +1,13 @@
+@media (min-width: 768px) {
+    .minicartWrapperContainer {
+        margin-left: 30px;
+    }
+}
+
+.minicartContainer :global(.vtex-button):hover {
+    background-color: transparent;
+}
+
+.cartIcon {
+    color: #1D2734;
+}

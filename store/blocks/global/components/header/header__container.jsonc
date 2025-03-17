@@ -1,0 +1,34 @@
+{
+  "header-row#header__container": {
+    "children": [
+      "drawer",
+      "logo#logo--black",
+      "search-bar",
+      "header-force-center",
+      "vtex.menu@2.x:menu#header__container--menu",
+      "minicart.v2",
+      "login"
+    ],
+    "props": {
+      "fullwidth": true
+    }
+  },
+  "header-row#header__container--mobile": {
+    "children": [
+      "drawer",
+      "logo#logo--black",
+      "header-force-center",
+      "search-bar",
+      "minicart.v2",
+      "login"
+    ],
+    "props": {
+      "fullwidth": true,
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "header-force-center": {
+    "children": [ ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "logo#logo--black": {
+    "props": {
+      "title": "Logo del sitio Itglobers",
+      "href": "/",
+      "url": "assets/logos/itglobers-black.svg",
+      "width": "32",
+      "height": "16"
+    }
+  }
+}

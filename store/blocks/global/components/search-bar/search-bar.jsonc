@@ -1,0 +1,8 @@
+{
+  "search-bar": {
+    "props": {
+      "blockClass": "header__search--bar",
+      "placeholder": "Search products...."
+    }
+  }
+}

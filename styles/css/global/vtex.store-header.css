@@ -1,0 +1,9 @@
+.headerRowContainer--navigation__carrusel {
+    overflow: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer/Edge */
+}
+
+.headerRowContainer--navigation__carrusel::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Edge */
+}

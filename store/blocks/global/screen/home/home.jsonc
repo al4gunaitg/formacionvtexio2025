@@ -4,7 +4,8 @@
       "responsive-layout.desktop#home",
       "responsive-layout.mobile#home",
       "flex-layout.row#section--infocards",
-      "flex-layout.row#featured__product--row"
+      "flex-layout.row#featured__product--row",
+      "flex-layout.row#section--infocards"
     ]
   }
 }

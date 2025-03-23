@@ -1,0 +1,111 @@
+{
+  "flex-layout.row#exclusive__product--row": {
+    "children": [
+      "flex-layout.col#exclusive__product--col"
+    ],
+    "props": {
+      "blockClass": "featured__product--row"
+    }
+  },
+  "flex-layout.col#exclusive__product--col": {
+    "children": [
+      "rich-text#exclusive__product--title",
+      "list-context.product-list#exclusive__product--list"
+    ],
+    "props": {
+      "blockClass": "featured__product--col"
+    }
+  },
+  "rich-text#exclusive__product--title": {
+    "props": {
+      "text": "An amazing product.",
+      "blockClass": "featured__product--title"
+    }
+  },
+  "list-context.product-list#exclusive__product--list": {
+    "blocks": ["product-summary.shelf#exclusive__product--item"],
+    "children": [
+      "responsive-layout.desktop#exclusive__product--layout",
+      "responsive-layout.mobile#exclusive__product--layout"
+    ]
+  },
+  "product-summary.shelf#exclusive__product--item": {
+    "children":[
+      "add-to-list-btn#exclusive__product--favorite",
+      "product-summary-image#exclusive__product--image",
+      "product-summary-description#exclusive__product--description",
+      "product-summary-price#exclusive__product--price",
+      "product-summary-buy-button#exclusive__product--buybtn"
+    ],
+    "props": {
+      "blockClass": "featured__product--item"
+    }
+  },
+  "responsive-layout.desktop#exclusive__product--layout": {
+    "children":[
+      "slider-layout#exclusive__product--desktop"
+    ]
+  },
+  "responsive-layout.mobile#exclusive__product--layout": {
+    "children":[
+      "slider-layout#exclusive__product--mobile"
+    ]
+  },
+  "slider-layout#exclusive__product--mobile": {
+    "props": {
+      "itemsPerPage": {
+        "mobile": 2,
+        "phone": 2
+      },
+      "fullWidth": false,
+      "centerMode": "to-the-left",
+      "navigationStep": 1,
+      "centerModeSlidesGap": 6,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "featured__product--slider"
+    }
+  },
+  "slider-layout#exclusive__product--desktop": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3
+      },
+      "fullWidth": false,
+      "navigationStep": 1,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "featured__product--slider"
+    }
+  },
+  "product-summary-image#exclusive__product--image": {
+    "props": {
+      "aspectRatio": "5:3",
+      "blockClass": "featured__product--image"
+    }
+  },
+  "product-summary-description#exclusive__product--description": {
+    "props": {
+      "blockClass": "featured__product--description"
+    }
+  },
+  "product-summary-price#exclusive__product--price": {
+    "props": {
+      "showLabels": false,
+      "labelListPrice": "",
+      "showInstallments": false,
+      "blockClass": "featured__product--price"
+    }
+  },
+  "product-summary-buy-button#exclusive__product--buybtn": {
+    "props": {
+      "buyButtonText": "Comprar",
+      "isOneClickBuy": false,
+      "blockClass": "featured__product--buybtn"
+    }
+  },
+  "add-to-list-btn#exclusive__product--favorite": {
+    "props": {
+      "blockClass": "featured__product--favorite"
+    }
+  }
+}

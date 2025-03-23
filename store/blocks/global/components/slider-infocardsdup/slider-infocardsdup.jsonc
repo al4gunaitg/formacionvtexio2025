@@ -68,7 +68,7 @@
       "flex-layout.col#infocardsdup__information--content"
     ],
     "props": {
-      "blockClass": "infocardsdup--information"
+      "blockClass": "infocards--information"
     }
   },
   "flex-layout.col#infocardsdup__information--content": {

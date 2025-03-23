@@ -34,6 +34,7 @@
         "tablet": 2,
         "mobile": 1
       },
+      "fullWidth": false,
       "blockClass": "carousel--home",
       "navigationStep": 1,
       "centerMode": "to-the-left",

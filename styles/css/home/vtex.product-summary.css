@@ -1,0 +1,101 @@
+.image--featured__product--image {
+    box-sizing: border-box;
+    padding: 2em 0.8em 0.6em;
+}
+
+.container--featured__product--item :global(.vtex-store-components-3-x-discountInsideContainer) {
+    left: 0;
+    right: auto;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: -8px;
+    border-radius: 0.5em;
+    background-color: #1D2734;
+    font-family: 'Lexend', sans-serif;
+}
+
+
+.container--featured__product--item :global(.vtex-store-components-3-x-discountInsideContainer)::after {
+    content: 'OFF';
+}
+
+.description--featured__product--description {
+    font-size: 12px;
+    text-align: left;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    margin-bottom: 6px;
+    padding-right: .8em;
+}
+
+.priceContainer--featured__product--price {
+    padding: 0;
+    align-items: flex-start;
+}
+
+.price_listPrice--featured__product--price {
+    color: #1D273466;
+    font-weight: 400;
+    font-family: 'Lexend', sans-serif;
+}
+
+.price_listPriceContainer--featured__product--price {
+    text-align: left;
+    padding-bottom: 0;
+}
+
+.price_sellingPriceContainer--featured__product--price {
+    padding-top: 0;
+}
+
+.price_sellingPrice--featured__product--price {
+    color: #1D2734;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Lexend', sans-serif;
+}
+
+.buyButtonContainer--featured__product--buybtn {
+    margin-top: auto;
+}
+
+.buyButton--featured__product--buybtn :global(.vtex-button) {
+    background-color: transparent;
+    border: .7px solid #1D2734;
+}
+
+.buyButtonText--featured__product--buybtn {
+    font-size: 0;
+}
+
+.buyButtonText--featured__product--buybtn::after {
+    content: 'Comprar';
+    font-size: 0.7rem;
+    background-image: url("assets/icons/cart-add.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 20px;
+    color: #1D2734;
+    text-transform: capitalize;
+}
+
+@media (min-width: 1025px) {
+    .container--featured__product--item :global(.vtex-store-components-3-x-discountInsideContainer) {
+        font-size: 14px;
+        padding: 8px 1.2rem;
+        line-height: normal;
+    }
+    .description--featured__product--description {
+        font-size: 14px;
+    }
+    .image--featured__product--image {
+        padding: 3em 0.8em 0.6em;
+    }
+
+    .buyButtonText--featured__product--buybtn::after {
+        font-size: 14px;
+        background-size: 16px;
+    }
+}

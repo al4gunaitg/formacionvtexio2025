@@ -1,0 +1,29 @@
+.wishlistIconContainer {
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.wishlistIconContainer :global(.vtex-button) {
+    border: 1px solid #1D2734;
+    width: 33px;
+    height: 24px;
+    z-index: 99;
+    min-height: auto;
+}
+
+.wishlistIconContainer :global(.vtex-button__label) {
+    padding: 0;
+}
+.wishlistIcon--featured__product--favorite {
+    background-image: url("assets/icons/favorite-add.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+@media (min-width: 1025px) {
+    .wishlistIconContainer :global(.vtex-button) {
+        width: 44px;
+        height: 32px;
+    }
+}

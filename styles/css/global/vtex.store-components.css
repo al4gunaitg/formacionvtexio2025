@@ -1,3 +1,11 @@
+.logoContainer {
+    padding: 0;
+}
+
+.logoImage {
+    min-width: 32px;
+}
+
 .searchBarContainer {
     width: auto;
     max-width: 280px;

@@ -1,8 +1,9 @@
-
+.paginationDotsContainer----featured__product--slider,
 .paginationDotsContainer--carousel--home {
     margin-bottom: -35px;
 }
 
+.paginationDot--featured__product--slider,
 .paginationDot--carousel--home {
     padding: 0 !important;
     width: 25px !important;
@@ -10,6 +11,18 @@
     border-radius: 0 !important;
 }
 
+.paginationDot--featured__product--slider--isActive,
 .paginationDot--carousel--home--isActive {
     background-color: #1D2734;
+}
+
+
+@media (min-width: 1025px) {
+    .sliderLayoutContainer--carousel--home,
+    .sliderLayoutContainer--featured__product--slider {
+        padding-left: 22px
+    }
+    .sliderTrack--featured__product--slider {
+        gap: 8px;
+    }
 }

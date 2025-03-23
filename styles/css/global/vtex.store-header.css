@@ -7,3 +7,7 @@
 .headerRowContainer--navigation__carrusel::-webkit-scrollbar {
     display: none; /* Chrome, Safari, Edge */
 }
+
+.headerRowContentContainer {
+    padding-right: .5rem !important;
+}

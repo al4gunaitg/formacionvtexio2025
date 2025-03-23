@@ -7,3 +7,9 @@
 :local(body div[class="vtex-store__template bg-base"]) {
     background: var(--base);
 }
+
+:local(body section[class*="vtex-store-components-3-x-container ph3"]) {
+    padding-right: 0;
+    padding-left: 16px;
+    max-width: calc(1280px - 72px);
+}

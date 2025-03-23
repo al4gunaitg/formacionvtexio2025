@@ -2,10 +2,20 @@
     margin-left: 0.8rem;
     margin-right: 0.8rem;
 }
+
 .styledLinkContent--header__menu--item {
     font-size: 12px;
 }
 
 .styledLinkContent--header__menu--item:hover {
     text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+    .menuContainer {
+        gap: 12px;
+    }
+    .styledLinkContainer--header__menu--item {
+        margin: 0;
+    }
 }

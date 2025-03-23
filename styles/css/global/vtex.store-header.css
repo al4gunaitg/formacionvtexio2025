@@ -11,3 +11,9 @@
 .headerRowContentContainer {
     padding-right: .5rem !important;
 }
+
+@media (min-width: 768px) {
+    .headerRowContainer--navigation__carrusel {
+        margin-top: 9px;
+    }
+}

@@ -1,0 +1,114 @@
+.carouselGaleryThumbs--pdp--product__gallery {
+    display: block;
+}
+
+.productImageTag--pdp--product__gallery {
+    height: 419px;
+    object-fit: cover !important;
+    max-width: calc(100% - 16px);
+}
+
+.vtex-store-components-3-x-productImageTag--pdp--product__gallery--main {
+    object-fit: cover !important;
+}
+
+.carouselGaleryThumbs--pdp--product__gallery :global(.vtex-store-components-3-x-productImagesThumb) {
+    overflow: hidden;
+    margin-right: 6px;
+    border-radius: 4px;
+    border: 1px solid #E7E7E7;
+    width: 90px !important;
+    height: 76px !important;
+    background-color: white;
+}
+
+.productBrand--product--information__name {
+    color: #1D2734;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+.price_sellingPrice--product--information__price {
+    font-size: inherit;
+}
+
+.currencyContainer--product--information__price {
+    font-size: 24px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.price_sellingPriceContainer--product--information__price {
+    padding: 0;
+}
+
+.skuSelectorName {
+    color: #1D2734;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.skuSelectorOptionsList {
+    gap: 8px 5px;
+    margin-left: 0;
+}
+
+.skuSelectorContainer--product--information__selector {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.shareButtons {
+    gap: 16px;
+}
+
+.shareLabel {
+    font-size: 0;
+    margin-bottom: 8px;
+}
+
+.shareLabel::before {
+    color: #1D2734;
+    content: "Share";
+    font-size: 16px;
+}
+
+.skuSelectorContainer--product--information__selector {
+    margin-top: 40px
+}
+
+.skuSelectorItemTextValue--product--information__selector {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.skuSelectorItem--product--information__selector {
+    margin: 0;
+}
+
+.skuSelectorItem--product--information__selector--selected .frameAround--product--information__selector {
+    border-color: transparent;
+}
+
+.skuSelectorItem--product--information__selector--selected .skuSelectorInternalBox--product--information__selector {
+    border-color: #1D2734;
+}
+
+.skuSelectorSubcontainer {
+    margin-bottom: 16px;
+}
+
+.skuSelectorTextContainer {
+    margin-bottom: 8px;
+}
+
+@media (min-width: 767px) {
+    .productImageTag--pdp--product__gallery {
+        max-width: none;
+    }
+    .skuSelectorContainer--product--information__selector {
+        margin-top: 24px
+    }
+}

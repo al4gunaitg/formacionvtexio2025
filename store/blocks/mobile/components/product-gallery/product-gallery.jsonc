@@ -1,0 +1,19 @@
+{
+  "responsive-layout.mobile#pdp--gallery": {
+    "children": [
+      "product-images#product--gallery__mobile"
+    ]
+  },
+  "product-images#product--gallery__mobile": {
+    "props": {
+      "maxHeight": 419,
+      "aspectRatio": "3:4",
+      "blockClass": "pdp--product__gallery",
+      "showNavigationArrows": false,
+      "showPaginationDots": false,
+      "thumbnailVisibility": "visible",
+      "displayThumbnailsArrows": false,
+      "thumbnailsOrientation": "horizontal"
+    }
+  }
+}

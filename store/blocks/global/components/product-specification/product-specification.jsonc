@@ -1,0 +1,66 @@
+{
+  "flex-layout.row#product--specification": {
+    "props": {
+      "blockClass": "product--specification"
+    },
+    "children": ["flex-layout.col#product--specification"]
+  },
+  "flex-layout.col#product--specification": {
+    "props": {
+      "blockClass": "product--specification"
+    },
+    "children": [
+      "rich-text#product--specification--title",
+      "product-specification-group#product--specification__table"
+    ]
+  },
+  "rich-text#product--specification--title": {
+    "props": {
+      "text": "Especificaciones del producto",
+      "blockClass": "product--specification--title"
+    }
+  },
+  "product-specification-group#product--specification__table": {
+    "props": {
+      "blockClass": "product--specification__table"
+    },
+    "children": [
+      "product-specification#product--specification__specification"
+    ]
+  },
+  "product-specification#product--specification__specification": {
+    "props": {
+      "blockClass": "product--specification__specificationz"
+    },
+    "children": [
+      "flex-layout.row#product--specification__row"
+    ]
+  },
+  "flex-layout.row#product--specification__row": {
+    "props": {
+      "blockClass": "product--specification__row"
+    },
+    "children": [
+      "product-specification-text#product--specification__name",
+      "product-specification-values#product--specification__values"
+    ]
+  },
+  "product-specification-values#product--specification__values": {
+    "props": {
+      "blockClass": "product--specification__values"
+    },
+    "children": ["product-specification-text#product--specification__value"]
+  },
+  "product-specification-text#product--specification__name": {
+    "props": {
+      "blockClass": "product--specification__name",
+      "message": "{specificationName}"
+    }
+  },
+  "product-specification-text#product--specification__value": {
+    "props": {
+      "blockClass": "product--specification__value",
+      "message": "{specificationValue}"
+    }
+  }
+}

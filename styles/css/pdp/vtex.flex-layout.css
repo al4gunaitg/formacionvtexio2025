@@ -1,0 +1,107 @@
+.flexRow--product__container--main {
+    margin-top: 16px;
+}
+
+.flexRow--product__container--information {
+    margin-top: 16px;
+}
+
+.flexRowContent--product--information__add {
+    gap: 8px;
+    display: flex;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #E7E7E7;
+}
+
+.flexRowContent--product--information__add :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+    justify-content: flex-start;
+}
+
+.flexRowContent--product--information__add :global(.vtex-button) {
+    height: 48px;
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 160px;
+    border-radius: 4px;
+    border-color: #492A77;
+    background-color: #492A77;
+    text-transform: capitalize;
+}
+
+.flexRowContent--product--information__add :global(.vtex-add-to-cart-button-0-x-buttonText--product--information__buy) {
+    display: flex;
+    align-items: center;
+}
+
+.flexRowContent--product--information__add :global(.vtex-add-to-cart-button-0-x-buttonText--product--information__buy)::before {
+    content: '';
+    width: 16.8px;
+    height: 17.5px;
+    color: white;
+    margin-right: 12px;
+    display: inline-block;
+    background-image: url("assets/icons/cart-add-w.svg");
+    background-repeat: no-repeat;
+}
+
+.flexRowContent--product--information__add .stretchChildrenWidth:first-child  {
+    width: max-content !important;
+}
+
+.flexRow--product--specification {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.flexRow--product--specification  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    flex-direction: column;
+}
+
+.flexRow--product--specification__row {
+    padding: 15px;
+}
+
+.flexRow--product--specification__row:first-child {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.flexRow--product--specification__row:nth-child(odd) {
+    background: #E7E7E7;
+}
+
+.flexRow--product--specification__row:nth-child(even) {
+    background: #FFFFFF;
+}
+
+.flexRowContent--product--specification__row {
+    display: grid;
+    grid-template-columns: max(90px) 1fr;
+}
+
+.flexRowContent--product--information {
+    padding-right: 16px;
+}
+
+@media (min-width: 767px) {
+    .flexRow--product__container--main {
+        margin-top: 24px;
+    }
+
+    .flexRowContent--product__container--main {
+        gap: 24px;
+    }
+    .flexRowContent--product--media :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+        display: none;
+    }
+    .flexRowContent--product--specification {
+        padding-left: 11px;
+        max-width: 1070px;
+        margin-right: auto;
+    }
+    .flexRowContent--product--specification__row {
+        grid-template-columns: max(181px) 1fr;
+    }
+}

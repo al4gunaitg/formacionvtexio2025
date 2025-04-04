@@ -1,0 +1,100 @@
+{
+  "store.product": {
+    "children": [
+      "flex-layout.row#product__container--main",
+      "flex-layout.row#product--specification"
+    ]
+  },
+  "flex-layout.row#product__container--main": {
+    "props": {
+      "blockClass": "product__container--main"
+    },
+    "children": [
+      "flex-layout.col#product--media",
+      "flex-layout.col#product--information"
+    ]
+  },
+  "flex-layout.col#product--media": {
+    "props": {
+      "width": "56%",
+      "preventVerticalStretch": true,
+      "blockClass": "product--media"
+    },
+    "children": [
+      "responsive-layout.mobile#pdp--gallery",
+      "responsive-layout.desktop#pdp--gallery"
+    ]
+  },
+  "flex-layout.col#product--information": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "product--information"
+    },
+    "children": [
+      "product-name#product--information__name",
+      "product-price#product--information__price",
+      "sku-selector#product--information__selector",
+      "flex-layout.row#product--information__add",
+      "share#product--information__share"
+    ]
+  },
+
+  "product-name#product--information__name": {
+    "props": {
+      "blockClass": "product--information__name"
+    }
+  },
+  "product-price#product--information__price": {
+    "props": {
+      "blockClass": "product--information__price"
+    }
+  },
+  "sku-selector#product--information__selector": {
+    "props": {
+      "imageWidth": {
+        "desktop": "100",
+        "mobile": "77"
+      },
+      "imageHeight": {
+        "desktop": "",
+        "mobile": "40"
+      },
+      "hideImpossibleCombinations": false,
+      "blockClass": "product--information__selector"
+    }
+  },
+  "flex-layout.row#product--information__add": {
+    "props": {
+      "blockClass": "product--information__add"
+    },
+    "children": [
+      "product-quantity#product--information__quantity",
+      "add-to-cart-button#product--information__buy"
+    ]
+  },
+  "product-quantity#product--information__quantity": {
+    "props": {
+      "showLabel": false,
+      "blockClass": "product--information__quantity"
+    }
+  },
+  "add-to-cart-button#product--information__buy": {
+    "props": {
+      "text": "Agregar",
+      "blockClass": "product--information__buy"
+    }
+  },
+  "share#product--information__share": {
+    "props": {
+      "options": {
+        "size": 40
+      },
+      "social": {
+        "Facebook": true,
+        "WhatsApp": true,
+        "Twitter": false,
+        "Pinterest": true
+      }
+    }
+  }
+}

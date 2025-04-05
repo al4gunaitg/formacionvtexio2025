@@ -8,8 +8,17 @@
     background: var(--base);
 }
 
-:local(body section[class*="vtex-store-components-3-x-container ph3"]) {
+:local(body div[class*="vtex-render__container-id-"]),
+:local(body section[class*="vtex-store-header-2-x-headerRowContentContainer"]),
+:local(body section[class*="vtex-store-header-2-x-headerRowContentContainer--navigation__carrusel"]) {
     padding-right: 0;
     padding-left: 16px;
+    margin: 0 auto;
     max-width: calc(1280px - 72px);
+}
+
+:local(body div[class*="vtex-render__container-id-home"]) {
+    padding: 0 !important;
+    margin: initial !important;
+    max-width: none !important;
 }

@@ -1,0 +1,105 @@
+{
+  "store.search": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "ALL_AVAILABLEALL",
+        "simulationBehavior": "skip"
+      }
+    }
+  },
+  "store.search#category": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip"
+      }
+    }
+  },
+  "store.search#brand": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip"
+      }
+    }
+  },
+  "store.search#department": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip"
+      }
+    }
+  },
+  "store.search#subcategory": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip"
+      }
+    }
+  },
+  "search-result-layout": {
+    "blocks": [
+      "search-result-layout.desktop#list--product__desktop",
+      "search-not-found-layout"
+    ]
+  },
+  "gallery": {
+    "props": {
+      "layouts": [
+        {
+          "name": "whole",
+          "component": "OneOrTwoLineSummary",
+          "itemsPerRow": {
+            "desktop": 3,
+            "tablet": 2,
+            "mobile": 1
+          }
+        }
+      ],
+      "OneOrTwoLineSummary": "product-summary.shelf#list--product__shelf"
+    }
+  },
+  "product-summary.shelf#list--product__shelf": {
+    "children": [
+      "flex-layout.row#product--summary__row"
+    ]
+  },
+  "flex-layout.row#product--summary__row": {
+    "children": [
+      "product-summary-image",
+      "flex-layout.col#list--product__information"
+    ],
+    "props": {
+      "blockClass": "product--summary__row"
+    }
+  },
+  "flex-layout.col#list--product__information": {
+    "children": [
+      "product-summary-description",
+      "product-summary-price"
+    ]
+  },
+  "search-content#search--content": {
+    "blocks": [
+      "gallery",
+      "not-found"
+    ]
+  }
+}

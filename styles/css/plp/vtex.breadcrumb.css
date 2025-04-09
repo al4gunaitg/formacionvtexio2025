@@ -1,0 +1,45 @@
+.container {
+    padding-top: 0;
+    padding-bottom: 16px;
+}
+
+.homeLink {
+    color: #FF8324 !important;
+}
+
+.arrow:not(.arrow--1) {
+    padding: 0;
+}
+
+.link {
+    padding: 0;
+    color: #8E8A92;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.link:not(.homeLink)::before {
+    content: "/";
+    color: #8E8A92;
+    margin-right: 3px;
+    display: inline-block;
+}
+
+
+.link:hover {
+    color: inherit;
+}
+
+.caretIcon {
+    display: none;
+}
+
+.container .arrow:last-child .link {
+    color: #1D2734;
+}
+
+@media (min-width: 1025px) {
+    .link {
+        font-size: 12px;
+    }
+}

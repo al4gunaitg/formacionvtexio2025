@@ -1,4 +1,360 @@
+.gallery {
+    gap: 12px 0;
+    margin: 16px 0 0 0;
+}
+
+.galleryItem {
+    padding: 0;
+}
+
 .galleryTitle--layout {
-    font-size: 20px;
+    margin: 0 0 16px 0;
+    font-size: 14px;
     font-weight: 600;
 }
+
+.searchResultContainer--list--product__mobile {
+    padding: 0;
+    margin-top: 16px;
+}
+
+.orderByButton {
+    width: auto;
+    height: 40px;
+    margin-right: 4px;
+    padding: 12px 13px;
+    background: #E7E7E7;
+    border-radius: 40px;
+    border: 1px solid #1D2734;
+    justify-content: flex-start;
+}
+
+.orderByButton .filterPopupArrowIcon::before {
+    content: '';
+    width: 0;
+    height: 0;
+    display: inline-block;
+    border-top: 5px solid #1D2734;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+}
+
+.orderByButton .filterPopupArrowIcon .caretIcon {
+    display: none;
+}
+
+.orderByButton .filterPopupTitle:not(.user-has-clicked) {
+    font-size: 0;
+}
+
+.orderByButton .user-has-clicked .orderByText {
+    font-size: 0;
+}
+
+.orderByText,
+.filterPopupTitle {
+    color: #1d2734;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: none;
+    display: inline-block;
+}
+
+.orderByText::before {
+    content: '';
+    width: 15px;
+    height: 10px;
+    margin-right: 8px;
+    display: inline-block;
+    background-image: url("assets/icons/sort.svg");
+    background-repeat: no-repeat;
+}
+
+.orderByButton .filterPopupArrowIcon {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.orderByDropdown {
+    width: max-content;
+}
+
+.orderByButton .filterPopupTitle {
+    margin-right: 11px;
+}
+
+
+.filterPopupButton {
+    width: auto;
+    height: 40px;
+    padding: 14px 14px;
+    background: #E7E7E7;
+    border-radius: 40px;
+    justify-content: flex-start;
+    border: 1px solid transparent;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.filterPopupButton .filterPopupArrowIcon {
+    padding: 0;
+}
+
+.filterPopupButton .filterPopupTitle {
+    margin-left: 7.5px;
+    display: flex;
+    align-items: center;
+}
+
+.filterPopupButton .filterPopupTitle::after {
+    content: '';
+    width: 11px;
+    height: 5px;
+    margin-left: 11px;
+    display: inline-block;
+    background-image: url("assets/icons/nav-care-down.svg");
+    background-repeat: no-repeat;
+
+}
+
+.filterPopupButton .filterIcon {
+    width: 14px;
+    height: 10px;
+}
+
+.searchResultContainer--list--product__desktop {
+    padding: 0;
+    margin-top: 40px;
+}
+
+.searchResultContainer--list--product__desktop :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+}
+
+.flexColChild--products--actions__desktop {
+    margin-top: 40px;
+}
+
+.filterTemplateOverflow {
+    padding-bottom: 0;
+}
+
+.filterItem {
+    padding: 13px
+}
+
+.filterItem:last-child {
+    padding-bottom: 0;
+}
+
+.filterItem :global(.vtex-checkbox__label) {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.filterItem :global(.vtex-checkbox__inner-container),
+.filterItem :global(.vtex-checkbox__box-wrapper) {
+    margin: 0;
+    width: 18px;
+    height: 18px;
+}
+
+.filterItem :global(.vtex-checkbox__container) {
+    width: 18px;
+    height: 18px;
+    margin-right: 13px;
+}
+
+.filterItem :global(.vtex-checkbox__inner-container) {
+    border-color: #1D2734;
+}
+
+.filter__container--priceRange .filterTemplateOverflow {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.filter__container--priceRange :global(.vtex-slider__left-value),
+.filter__container--priceRange :global(.vtex-slider__right-value) {
+    color: #1D2734;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.filter__container--priceRange :global(.vtex-slider__values-container) {
+    justify-content: center;
+}
+
+.filterTitle .filterIcon::before {
+    content: '';
+    width: 0;
+    height: 0;
+    display: inline-block;
+    border-top: 5px solid #1D2734;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+}
+
+.filterIsOpen .filterTitle .filterIcon::before {
+    transform: rotate(180deg);
+}
+
+.filterTitle .filterIcon .caretIcon {
+    display: none;
+}
+
+.filterBreadcrumbsText,
+.filterBreadcrumbsItemName {
+    padding: 0;
+    color: #979899;
+    font-size: 14px;
+}
+
+.filterBreadcrumbsItem .caretIcon {
+    display: none;
+}
+
+.filterBreadcrumbsItem::before {
+    content: '/';
+    margin: 0 5px;
+    font-size: 14px;
+    color: #1D2734;
+}
+
+.accordionFilterContent {
+    padding: 0;
+}
+
+.accordionFilterItem {
+    display: flex;
+    align-items: center;
+}
+
+.accordionFilterContent {
+    width: 100%;
+}
+
+.accordionFilterItemTitle {
+    font-size: 14px;
+}
+
+.filterBreadcrumbsItemName {
+    color: #1D2734 !important;
+}
+
+.filterAccordionItemBox :global(.vtex-checkbox__line-container) {
+    align-items: center;
+}
+
+.filterAccordionItemBox :global(.vtex-checkbox__inner-container) {
+    border-color: #1D2734;
+}
+
+.filterAccordionItemBox :global(.vtex-checkbox__label) {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.filterApplyButtonWrapper :global(.vtex-button),
+.filterClearButtonWrapper :global(.vtex-button) {
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 40px;
+    text-transform: none;
+}
+
+.filterApplyButtonWrapper :global(.vtex-button) {
+    color: #FFFFFF;
+    border-color: #1D2734;
+    background-color: #1D2734;
+}
+
+.filterClearButtonWrapper :global(.vtex-button) {
+    color: #1D2734;
+    border-color: #1D2734;
+}
+
+.accordionFilterItemOptions {
+    padding-left: 32px;
+}
+
+.accordionFilterItemOptions .filter__container--priceRange {
+    border: none;
+}
+
+.filter__container--priceRange .filterTitleSpan {
+    color: #1D2734;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+@media (min-width: 1025px) {
+    .gallery {
+        margin: 0;
+    }
+     .flexRowContent--products--layered-filter {
+         align-items: center;
+     }
+    .galleryTitle--layout {
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .orderByText {
+        font-size: 14px;
+    }
+
+    .orderByButton .filterPopupTitle {
+        font-size: 14px;
+    }
+
+    .orderByButton .user-has-clicked .orderByText {
+        font-size: 0;
+    }
+
+
+
+    .totalProducts--layout,
+    .totalProductsMessage {
+        color: #1D2734;
+        font-size: 14px;
+        font-weight: 300;
+        text-transform: none;
+    }
+
+    .filter__container--title {
+        display: none;
+    }
+    .totalProducts--layout {
+        padding: 0;
+        text-align: left;
+        text-transform: none;
+    }
+
+    .filter__container {
+        border: none;
+        max-width: 184px;
+        padding-bottom: 13px;
+    }
+
+    .filter {
+        height: 36px;
+        padding: 8px 16px;
+        border-radius: 40px;
+        border: 1px solid black;
+        background-color: #1D27341A;
+    }
+
+    .filterTitleSpan {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .filters--layout {
+        max-width: 184px;
+    }
+}
+

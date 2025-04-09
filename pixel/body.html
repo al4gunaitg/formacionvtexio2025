@@ -1,0 +1,12 @@
+<script>
+    document.body.addEventListener('click', function (event) {
+        const button = event.target.closest('.vtex-search-result-3-x-orderByButton');
+
+        if (button) {
+            const text = document.querySelector('.vtex-search-result-3-x-filterPopupTitle');
+            if (text) {
+                text.classList.add('vtex-search-result-3-x-user-has-clicked');
+            }
+        }
+    });
+</script>

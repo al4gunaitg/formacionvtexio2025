@@ -1,0 +1,38 @@
+{
+  "search-result-layout.mobile#list--product__mobile": {
+    "props": {
+      "blockClass": "list--product__mobile",
+      "preventRouteChange": true
+    },
+    "children": [
+      "breadcrumb.search",
+      "search-title.v2",
+      "flex-layout.row#products--actions__mobile",
+      "search-content#search--content"
+    ]
+  },
+  "flex-layout.row#products--actions__mobile": {
+    "props": {
+      "blockClass": "products--actions__mobile",
+      "horizontalAlign": "left"
+    },
+    "children": [
+      "order-by.v2",
+      "filter-navigator.v3#mobile"
+    ]
+  },
+  "breadcrumb.search": {
+    "props": {
+      "showOnMobile": true,
+      "homeIconSize": 15
+    }
+  },
+  "filter-navigator.v3#mobile": {
+    "props": {
+      "width": "20%",
+      "showFacetTitle": true,
+      "truncateFilters": true,
+      "openFiltersMode": "one"
+    }
+  }
+}

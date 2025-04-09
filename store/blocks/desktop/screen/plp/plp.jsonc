@@ -50,7 +50,7 @@
   },
   "filter-navigator.v3#desktop": {
     "props": {
-      "width": "20%",
+      "blockClass": "filter--navigation__desk",
       "showFacetTitle": false,
       "truncateFilters": true,
       "openFiltersMode": "one"

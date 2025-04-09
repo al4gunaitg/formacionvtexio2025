@@ -22,3 +22,11 @@
     margin: initial !important;
     max-width: none !important;
 }
+
+:local(svg[class=" vtex-search-result-3-x-filterIcon"] use) {
+    transform: scale(1.9);
+}
+
+:local(div[class*="render-route-store-search-"] div[class="vtex-store__template bg-base"]) {
+    background: #fff;
+}

@@ -1,0 +1,7 @@
+.flexRow--minicart-footer {
+    box-shadow: none;
+}
+
+.flexRowContent--minicart--information .stretchChildrenWidth:first-child {
+    width: 100% !important;
+}

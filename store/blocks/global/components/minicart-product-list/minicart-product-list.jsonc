@@ -1,0 +1,102 @@
+{
+  "product-list#minicart": {
+    "blocks": [
+      "product-list-content-desktop",
+      "product-list-content-mobile"
+    ]
+  },
+  "product-list-content-desktop": {
+    "children": ["flex-layout.row#minicart--product__list"]
+  },
+  "product-list-content-mobile": {
+    "children": ["flex-layout.row#minicart--product__list"]
+  },
+  "flex-layout.row#minicart--product__list": {
+    "props": {
+      "blockClass": "minicart--product__list",
+      "horizontalAlign": "left",
+      "colSizing": "auto",
+      "fullWidth": true,
+      "paddingBottom": "6",
+      "paddingTop": "5",
+      "preserveLayoutOnMobile": "true"
+    },
+    "children": [
+      "flex-layout.col#minicart--image",
+      "flex-layout.col#minicart--main__container"
+    ]
+  },
+  "flex-layout.col#minicart--image": {
+    "props": {
+      "blockClass": "minicart--image",
+      "marginRight": "5"
+    },
+    "children": ["product-list-image"]
+  },
+  "flex-layout.col#minicart--main__container": {
+    "props": {
+      "width": "grow",
+      "blockClass": "minicart--main__container"
+    },
+    "children": [
+      "flex-layout.row#minicart--information"
+    ]
+  },
+  "flex-layout.row#minicart--information": {
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "minicart--information",
+      "preserveLayoutOnMobile": "true"
+    },
+    "children": [
+      "flex-layout.col#minicart--product__info",
+      "flex-layout.col#minicart--remove__button"
+    ]
+  },
+  "flex-layout.col#minicart--product__info": {
+    "props": {
+      "width": "grow"
+    },
+    "children": [
+      "vtex.product-list:product-name",
+      "price",
+      "quantity-selector"
+    ]
+  },
+  "product-list-image": {
+    "props": {
+      "blockClass": "minicart__image"
+    }
+  },
+  "vtex.product-list:product-name": {
+    "props": {
+      "blockClass": "minicart__name",
+      "showSku": true,
+      "showBrandName": true,
+      "showProductReference": false
+    }
+  },
+  "flex-layout.col#minicart--remove__button": {
+    "props": {
+      "verticalAlign": "top"
+    },
+    "children": ["remove-button"]
+  },
+  "remove-button": {
+    "props": {
+      "blockClass": "minicart--remove__button"
+    }
+  },
+  "price": {
+    "props": {
+      "blockClass": "minicart__price",
+      "textAlign": "left"
+    }
+  },
+  "quantity-selector": {
+    "props": {
+      "mode": "stepper",
+      "blockClass": "minicart__quantity"
+    }
+  }
+}

@@ -1,3 +1,91 @@
 {
+  "minicart.v2": {
+    "props": {
+      "quantityDisplay": "always"
+    },
+    "children": ["minicart-base-content"]
+  },
+  "minicart-base-content": {
+    "blocks": ["minicart-empty-state"],
+    "children": [
+      "minicart-product-list",
+      "flex-layout.row#minicart-footer"
+    ]
+  },
+  "minicart-empty-state": {
+    "children": ["flex-layout.row#empty-state"]
+  },
+  "flex-layout.row#empty-state": {
+    "children": [
+      "flex-layout.col#empty-state"
+    ]
+  },
+  "flex-layout.col#empty-state": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#banner__image--empty",
+      "rich-text#empty--state__subtitle",
+      "rich-text#empty--state__description"
+    ]
+  },
+  "rich-text#empty--state__subtitle": {
+    "props": {
+      "blockClass": "empty--state__subtitle",
+      "text": "¿Por qué tan solo?"
+    }
+  },
+  "rich-text#empty--state__description": {
+    "props": {
+      "blockClass": "empty--state__description",
+      "text": "Tenemos ofertas del 50% este mes"
+    }
+  },
+  "image#banner__image--empty": {
+    "props": {
+      "blockClass": "banner__image--empty",
+      "src": "assets/cart/cart.png",
+      "alt": "Imagen cuando el minicart esta vacio",
+      "maxWidth": "200px"
+    }
+  },
 
+  "flex-layout.row#minicart-footer": {
+    "props": {
+      "blockClass": "minicart-footer"
+    },
+    "children": ["flex-layout.col#minicart-footer"]
+  },
+  "flex-layout.col#minicart-footer": {
+    "children": [
+      "minicart-summary",
+      "minicart-checkout-button"
+    ]
+  },
+  "minicart-summary": {
+    "blocks": ["checkout-summary.compact#minicart"]
+  },
+  "checkout-summary.compact#minicart": {
+    "children": ["summary-totalizers#minicart"],
+    "props": {
+      "totalizersToShow": ["Items", "Discounts"]
+    }
+  },
+  "summary-totalizers#minicart": {
+    "props": {
+      "showTotal": true,
+      "showDiscounts": true,
+      "showDeliveryTotal": false
+    }
+  },
+  "minicart-checkout-button": {
+    "props": {
+      "finishShoppingButtonLink": "/checkout/#/orderform"
+    }
+  },
+
+  "minicart-product-list": {
+    "blocks": ["product-list#minicart"]
+  }
 }

@@ -1,0 +1,16 @@
+.paragraph--empty--state__subtitle {
+    margin: 5px 0;
+    color: #1D2734;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.wrapper--empty--state__description {
+    color: #1D2734;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.wrapper--empty--state__description .paragraph {
+    margin-top: 4px;
+}

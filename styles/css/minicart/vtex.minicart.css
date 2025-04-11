@@ -1,0 +1,119 @@
+.minicartContainer :global(.vtex-button):hover {
+    background-color: transparent;
+}
+
+.drawer {
+    padding: 16px;
+}
+
+.overlay--visible {
+    opacity: 1 !important;
+    backdrop-filter: blur(12px) !important;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.cartIcon {
+    color: #1D2734;
+}
+
+.closeIconContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.closeIconContainer::before {
+    content: "";
+    width: 50px;
+    height: 25px;
+    background-image: url("assets/logos/itglobers-black.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.closeIconButton {
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    background: #F5F4F6;
+    border-radius: 100%;
+}
+
+.minicartTitle {
+    padding: 0;
+    font-size: 0;
+    margin-top: 32px;
+}
+
+.minicartTitle::before {
+    font-size: 14px;
+    font-weight: 600;
+    content: "Resumen de tu compra";
+}
+
+.minicartSummary {
+    padding: 24px;
+    border-radius: 4px;
+    border: 1px solid #E7E7E7;
+}
+
+.minicartSummary :global(.vtex-checkout-summary-0-x-summaryItemLabel),
+.minicartSummary :global(.vtex-checkout-summary-0-x-summaryItemPrice) {
+    color: #1D2734;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.minicartSummary :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
+    display: none;
+}
+
+.minicartCheckoutButton {
+    padding: 0;
+}
+
+.minicartCheckoutButton :global(.vtex-button) {
+    height: 48px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 40px;
+    text-transform: none;
+    border-color: #1D2734;
+}
+
+.minicartSummary :global(.vtex-checkout-summary-0-x-summaryItemContainer):last-child :global(.vtex-checkout-summary-0-x-summaryItemLabel),
+.minicartSummary :global(.vtex-checkout-summary-0-x-summaryItemContainer):last-child :global(.vtex-checkout-summary-0-x-summaryItemPrice) {
+    color: #E31616;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+@media (max-width: 768px) {
+    .overlay--visible {
+        display: none;
+    }
+
+    .drawer {
+        top: 112px !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+}
+
+.minicartProductListContainer {
+    padding: 0;
+}
+
+@media (min-width: 768px) {
+    .minicartWrapperContainer {
+        margin-left: 12px;
+    }
+
+    .openIconContainer {
+        padding-top: 8px;
+        padding-right: 16px;
+        padding-bottom: 8px;
+    }
+
+}

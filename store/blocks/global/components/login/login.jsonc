@@ -1,8 +1,23 @@
 {
   "login": {
     "props": {
+      "optionsTitle": "LOG IN",
       "iconLabel": "Login",
-      "labelClasses" : ["label-btn-login"]
+      "emailAndPasswordTitle": "LOG IN",
+      "emailPlaceholder": "Enter your e-mail",
+      "passwordPlaceholder": "Enter your password",
+      "accessCodeTitle": "RECUPERAR CLAVE",
+      "labelClasses" : ["label-btn-login"],
+      "showPasswordVerificationIntoTooltip": false
+    }
+  },
+  "login-content#default": {
+    "props": {
+      "showPasswordVerificationIntoTooltip": false,
+      "defaultOption": 2,
+      "providerPasswordButtonLabel": "dd",
+      "emailAndPasswordTitle": "NUEVO TEXTO PARA EMAIL Y CONTRASEÑA",
+      "accessCodeTitle": "NUEVO TEXTO PARA CÓDIGO DE ACCESO"
     }
   }
 }

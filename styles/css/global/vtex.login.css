@@ -1,10 +1,66 @@
+.portalWrapper > div {
+    top: 112px !important;
+}
+
+.box {
+    right: -80px;
+}
+
+.box::before {
+
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 112px;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    backdrop-filter: blur(12px);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.contentContainer {
+    margin-top: 0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+    padding: 0 27px 16px 27px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.content--loginOptions {
+    background-color: #F5F4F6;
+}
+
+.contentForm {
+    position: relative;
+}
+
+.arrowUp {
+    display: none;
+}
+
 .container :global(.vtex-button) {
     width: 80px;
     color: white;
     padding: 10px;
+    overflow: hidden;
     border-radius: 40px;
     background-color: #1D2734;
 }
+
+.formTitle {
+    padding: 0 20px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 16px;
+    position: relative;
+    margin-bottom: 24px;
+}
+
 .container  :global(.vtex-button__label) {
     padding: 0 !important;
 }
@@ -21,3 +77,268 @@
     text-transform: capitalize;
 }
 
+.box .backButton :global(.vtex-button) {
+    padding: 0;
+    width: auto;
+    height: auto;
+    border: none;
+    min-width: auto;
+}
+
+.backButton {
+    top: 16px;
+    position: absolute;
+}
+
+.box .backButton :global(.vtex-button__label) {
+    padding: 0;
+}
+
+.box .backButton .arrowBackIcon {
+    width: 20px;
+    height: 14px;
+}
+
+.box .backButton :global(.vtex-button) span {
+    font-size: 0;
+}
+
+.box :global(.vtex-button) {
+    color: #1D2734;
+    padding: 15px 0;
+    font-size: 14px;
+    height: 48px;
+    min-width: 368px;
+    font-weight: 400;
+    border-radius: 40px;
+    text-transform: none;
+    background: transparent;
+    border: 1px solid #1D2734;
+}
+
+.box .googleOptionBtn :global(.vtex-button) {
+    color: #5E636E;
+    font-size: 16px;
+    position: relative;
+    border-color: #AEBACE80;
+    background-color: #FFFFFF;
+}
+
+.box .googleOptionBtn .oauthProvider,
+.box .facebookOptionBtn .oauthProvider {
+    font-weight: 400;
+}
+
+.box .googleOptionBtn .oauthLabel,
+.box .facebookOptionBtn .oauthLabel {
+    font-size: 16px;
+    text-transform: none;
+}
+
+.box .googleOptionBtn svg {
+    top: 50%;
+    left: 24px;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.box .facebookOptionBtn :global(.vtex-button) {
+    color: #FFFFFF;
+    font-size: 16px;
+    position: relative;
+    text-transform: none;
+    border-color: #1877F2;
+    background-color: #1877F2;
+}
+
+.box .facebookOptionBtn svg {
+    display: none;
+}
+
+.optionsList {
+    display: flex;
+    flex-direction: column;
+}
+
+.optionsListItem:nth-child(2) {
+    order: -1;
+}
+
+.box .facebookOptionBtn :global(.vtex-button__label)::before {
+    content: '';
+    width: 23px;
+    height: 24px;
+    top: 50%;
+    left: 24px;
+    position: absolute;
+    transform: translateY(-50%);
+    background-image: url("assets/icons/facebook.svg");
+    background-repeat: no-repeat;
+}
+
+.customOAuthOptionBtn {
+    display: none;
+}
+
+.inputContainer :global(.vtex-input-prefix__group) {
+    padding: 0;
+    border: none;
+    height: max-content;
+}
+
+.inputContainer :global(.vtex-styleguide-9-x-input) {
+    height: 48px;
+    color: #1D2734;
+    font-size: 14px;
+    padding:  0 16px;
+    min-width: 368px;
+    border-radius: 40px;
+    border: 1px solid #1D2734;
+    font-family: 'Lexend', sans-serif;
+}
+
+.inputContainer :global(.vtex-styleguide-9-x-input)::placeholder {
+    color: #1D2734;
+}
+
+.inputContainerPassword :global(.vtex-input__suffix) {
+    display: none;
+}
+
+.formLinkContainer {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.forgotPasswordLink {
+    font-size: 0;
+    margin-bottom: 24px;
+}
+
+.forgotPasswordLink::before {
+    color: #0C2340;
+    font-size: 14px;
+    font-weight: 300;
+    margin-right: 4px;
+    content: "Forgot your password?";
+}
+
+.forgotPasswordLink::after {
+    color: #E56A54;
+    font-size: 14px;
+    font-weight: 300;
+    content: "Reset password";
+    text-decoration: underline;
+}
+
+.formFooter {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    border-color: transparent;
+}
+
+.inputContainer {
+    padding: 0;
+    margin-bottom: 16px;
+}
+
+.dontHaveAccount {
+    font-size: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.dontHaveAccount::before {
+    color: #1D2734;
+    font-size: 14px;
+    font-weight: 400;
+    content: 'Create an account';
+}
+
+.sendButton :global(.vtex-button) {
+    color: white;
+    background-color: #1D2734;
+}
+
+.inputContainerPassword span {
+    font-size: 10px;
+}
+
+.formTitle::after {
+    color: #5E636E;
+    font-size: 14px;
+    font-weight: 300;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    width: 100%;
+    transform: translateX(-50%);
+}
+
+.emailForm .formTitle,
+.emailAndPasswordForm .formTitle {
+    padding-bottom: 14px;
+    margin-bottom: 36px;
+}
+
+.emailAndPasswordForm .formTitle::after {
+    content: 'Continue with e-mail and password';
+}
+
+.emailForm .formTitle::after {
+    content: 'Receive access code by email';
+}
+
+.formSubtitle {
+    font-size: 14px;
+}
+
+.formError {
+    color: #E31616;
+    margin-bottom: 10px;
+    background: transparent;
+}
+
+.accountOptions a {
+    width: 100%;
+    height: 48px;
+    color: #1D2734;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 40px;
+    display: inline-block;
+    border: 1px solid #1D2734;
+    background-color: transparent;
+}
+
+.accountOptions a:hover {
+    background-color: #1D2734;
+}
+
+.accountOptions a:hover  span {
+    color: #FFFFFF;
+}
+
+.accountOptions hr {
+    display: none;
+}
+
+.accountOptions a .button {
+    width: 100%;
+    height: 48px;
+    border: none;
+    color: #1D2734;
+    background-color: transparent;
+}
+
+.accountOptions :global(.vtex-button) {
+    border: none;
+    color: #E31616;
+}
+
+.accountOptions a span {
+    font-weight: 400;
+    text-transform: none;
+}

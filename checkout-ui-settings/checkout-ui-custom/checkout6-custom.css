@@ -1,9 +1,76 @@
-/* Content copied from "checkout5-custom.css" at 2019-03-01T05:12:59.334Z */
+.vtex-social-selling.sb-ready {
+  display: none;
+}
 
-/* /files/checkout5-custom.css */
+.terms-checkbox {
+  min-height: 20px;
+  margin: 0 7px 0 0 !important;
+}
 
-/* Displays the option to enter a foreign document */
-.document-box { display: block; }
+.terms-checkbox:not(:checked) {
+  pointer-events: none;
+}
 
-/* Displays the option to enter an international phone */
-.phone-box { display: block; }
+.terms-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+.terms-modal-content {
+  background-color: white;
+  width: 90%;
+  max-width: 600px;
+  margin: 50px auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.terms-modal-header {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.terms-modal-header h3 {
+  margin: 0;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.terms-modal-body {
+  padding: 20px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.terms-modal-footer {
+  padding: 15px;
+  border-top: 1px solid #eee;
+  text-align: right;
+}
+
+.accept-button {
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.accept-button:hover {
+  background-color: #27ae60;
+}

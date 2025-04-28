@@ -8,7 +8,29 @@
       "passwordPlaceholder": "Enter your password",
       "accessCodeTitle": "RECUPERAR CLAVE",
       "labelClasses" : ["label-btn-login"],
-      "showPasswordVerificationIntoTooltip": false
+      "showPasswordVerificationIntoTooltip": false,
+      "accountOptionLinks": [
+        {
+          "label": "Profile",
+          "path": "/account#/profile"
+        },
+        {
+          "label": "Addresses",
+          "path": "/account#/addresses"
+        },
+        {
+          "label": "Orders",
+          "path": "/account#/orders"
+        },
+        {
+          "label": "Credit cards",
+          "path": "/account#/cards"
+        },
+        {
+          "label": "Authentication",
+          "path": "/account#/authentication"
+        }
+      ]
     }
   },
   "login-content#default": {

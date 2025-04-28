@@ -5,3 +5,11 @@
 .flexRowContent--minicart--information .stretchChildrenWidth:first-child {
     width: 100% !important;
 }
+
+.flexRow--minicart--product__list {
+    padding: 8px 0 0 0;
+}
+
+.flexRowContent--minicart--product__list {
+    padding: 0;
+}

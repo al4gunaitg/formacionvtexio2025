@@ -16,6 +16,7 @@
 }
 
 .flexRowContent--product--information__add :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+    width: 100% !important;
     justify-content: flex-start;
 }
 
@@ -61,6 +62,7 @@
 
 .flexRow--product--specification__row {
     padding: 15px;
+    min-height: 48px;
 }
 
 .flexRow--product--specification__row:first-child {
@@ -86,6 +88,15 @@
 }
 
 @media (min-width: 767px) {
+    .flexRowContent--product--information__add {
+        gap: 16px;
+    }
+
+    .flexRowContent--product--information__add :global(.vtex-button) {
+        width: 100%;
+        max-width: 312px;
+    }
+
     .flexRow--product__container--main {
         margin-top: 24px;
     }
@@ -103,5 +114,12 @@
     }
     .flexRowContent--product--specification__row {
         grid-template-columns: max(181px) 1fr;
+    }
+    .flexRowContent--product--information__add :global(.vtex-add-to-cart-button-0-x-buttonText--product--information__buy) {
+        font-size: 0;
+    }
+    .flexRowContent--product--information__add :global(.vtex-add-to-cart-button-0-x-buttonText--product--information__buy)::after {
+        content: 'Agregar al carrito';
+        font-size: 14px;
     }
 }

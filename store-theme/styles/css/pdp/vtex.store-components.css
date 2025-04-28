@@ -22,22 +22,43 @@
     background-color: white;
 }
 
+.productNameContainer--product--information__name {
+    margin-bottom: 16px;
+}
+
 .productBrand--product--information__name {
     color: #1D2734;
     font-size: 16px;
     font-weight: 300;
-    margin-bottom: 16px;
     display: inline-block;
+}
+
+.productBrand--product--information__name:last-child {
+    display: none;
+}
+
+.price_className--product--information__price {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
 }
 
 .price_sellingPrice--product--information__price {
     font-size: inherit;
 }
 
+.price_sellingPriceLabel--product--information__price,
 .currencyContainer--product--information__price {
     font-size: 24px;
     font-weight: 600;
     display: inline-block;
+}
+
+.price_listPrice--product--information__price .currencyContainer--product--information__price {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: line-through;
 }
 
 .price_sellingPriceContainer--product--information__price {
@@ -104,11 +125,41 @@
     margin-bottom: 8px;
 }
 
+.shareSocialButton.shareSocialButton--facebook {
+    width: 40px;
+    height: 40px;
+    background-image: url("assets/icons/facebook-share.png");
+    background-repeat: no-repeat;
+}
+
+.shareSocialButton.shareSocialButton--whatsapp {
+    width: 40px;
+    height: 40px;
+    background-image: url("assets/icons/whatsapp-share.png");
+    background-repeat: no-repeat;
+}
+
+.shareSocialButton.shareSocialButton--pinterest {
+    width: 40px;
+    height: 40px;
+    background-image: url("assets/icons/pinterest-share.png");
+    background-repeat: no-repeat;
+}
+
+.shareSocialButton .shareSocialIcon {
+    display: none;
+}
+
+
 @media (min-width: 767px) {
     .productImageTag--pdp--product__gallery {
         max-width: none;
     }
     .skuSelectorContainer--product--information__selector {
         margin-top: 24px
+    }
+    .carouselGaleryThumbs--pdp--product__gallery :global(.vtex-store-components-3-x-productImagesThumb) {
+        margin-right: 0;
+        margin-bottom: 6px;
     }
 }

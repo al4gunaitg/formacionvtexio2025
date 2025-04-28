@@ -48,6 +48,10 @@
   },
   "product-price#product--information__price": {
     "props": {
+      "showLabels": true,
+      "labelListPrice": "",
+      "labelSellingPrice": "Now",
+      "showInstallments": false,
       "blockClass": "product--information__price"
     }
   },

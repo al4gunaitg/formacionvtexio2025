@@ -8,6 +8,10 @@
     background: var(--base);
 }
 
+:local(body div[class="render-container render-route-store-product"] div[class="vtex-store__template bg-base"]) {
+    background: #FFFFFF;
+}
+
 :local(body div[class*="vtex-render__container-id-"]),
 :local(body section[class*="vtex-store-header-2-x-headerRowContentContainer"]),
 :local(body section[class*="vtex-store-header-2-x-headerRowContentContainer--navigation__carrusel"]) {
